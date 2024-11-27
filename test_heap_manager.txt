@@ -1,0 +1,15 @@
+Initializing custom heap...
+[LOG] Heap initialized with size 1024 bytes
+Running test_malloc_free...
+[LOG] Allocated 128 bytes at address 0x555a8c2a36c8
+[LOG] Allocated 256 bytes at address 0x555a8c2a3760
+[LOG] Freed block at address 0x555a8c2a36c8
+[LOG] Freed block at address 0x555a8c2a3760
+test_malloc_free: PASSED
+Running test_realloc...
+[LOG] Allocated 128 bytes at address 0x555a8c2a36c8
+[LOG] Allocated 256 bytes at address 0x555a8c2a3760
+[LOG] Freed block at address 0x555a8c2a36c8
+[LOG] Reallocated block from 0x555a8c2a36c8 to 0x555a8c2a3760 with size 256 bytes
+[LOG] Freed block at address 0x555a8c2a3760
+test_realloc: PASSED
